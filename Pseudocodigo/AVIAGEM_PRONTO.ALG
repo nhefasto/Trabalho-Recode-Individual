@@ -1,5 +1,5 @@
-Algoritmo "AVIAGEM"
-// Disciplina   : [Linguagem e Lógica de Programação] 
+Algoritmo "Nhefastour"
+// Disciplina   : [Linguagem e Lï¿½gica de Programaï¿½ï¿½o] 
 // //PROJETO DE MENU EM PSEUDOCODIGO PARA AGENCIA DE VIAGEM
 //Aluno: YGOR OLIVEIRA
 //TURMA: T5 SQUAD 047
@@ -18,7 +18,7 @@ Inicio
 
 
 Enquanto verdadeiro faca
-Escreval ("=========================== AVIAGEM ==============================")
+Escreval ("=========================== Nhefastour ==============================")
 
 Escreval ("---Area do Cliente---")
 Escreval ("(1) Cadastrar Cliente")
@@ -32,7 +32,7 @@ escolha numeroMenu
 
 caso 1
 Limpatela
-Escreval ("=========================== AVIAGEM ==============================")
+Escreval ("=========================== Nhefastour ==============================")
    escreval("---Area do Cliente---")
    escreval ("Cadastro de Cliente")
    para i de 1 ate valor faca
@@ -43,7 +43,7 @@ Escreval ("=========================== AVIAGEM ==============================")
    leia (nome[i,2])
    escreval ("Digite o email")
    leia (nome[i,3])
-   escreval ("Digite seu Endereço")
+   escreval ("Digite seu Endereï¿½o")
    leia (nome[i,4])
    Escreval ("Cadastro Finalizado com Sucesso!")
    interrompa
@@ -59,7 +59,7 @@ fimpara
 
 caso 2
  Limpatela
-Escreval ("=========================== AVIAGEM ==============================")
+Escreval ("=========================== Nhefastour ==============================")
    escreval("---Area do Cliente---")
    escreval ("Cadastro de Destino")
    para i de 1 ate valor faca
@@ -68,7 +68,7 @@ Escreval ("=========================== AVIAGEM ==============================")
    para j de 1 ate 1 faca
    escreval ("Estado: ")
    leia (destino[i,2])
-    escreval ("País: ")
+    escreval ("Paï¿½s: ")
    leia (destino[i,3])
    Escreval ("Cadastro Finalizado com Sucesso!")
    interrompa
@@ -85,7 +85,7 @@ fimpara
 caso 3
 Limpatela
  para i de 1 ate valor faca
-Escreval ("=========================== AVIAGEM ==============================")
+Escreval ("=========================== Nhefastour ==============================")
    escreval("---Area do Cliente---")
    escreval ("---Consultar cliente---")
    escreval ("Digite o nome do cliente que deseja consultar: ")
@@ -95,9 +95,9 @@ Escreval ("=========================== AVIAGEM ==============================")
    escreval ("Nome: ", nome[i])
    escreval ("CPF: ", nome[i,2])
    escreval ("Email: ", nome[i,3])
-   escreval ("Endereço: ", nome[i,4])
+   escreval ("Endereï¿½o: ", nome[i,4])
    senao
-   Escreval("Cliente não encontrado")
+   Escreval("Cliente nï¿½o encontrado")
    fimse
    Escreval ("Deseja Pesquisar outro cliente? (S/N)")
    leia(continue)
@@ -109,7 +109,7 @@ fimpara
 caso 4
      Limpatela
 para i de 1 ate valor faca
-Escreval ("=========================== AVIAGEM ==============================")
+Escreval ("=========================== Nhefastour ==============================")
    escreval("---Area do Cliente---")
    escreval ("---Consultar destino---")
    escreval ("Digite o destino que deseja consultar: ")
@@ -120,7 +120,7 @@ Escreval ("=========================== AVIAGEM ==============================")
    escreval ("Cidade: ", destino[i,2])
    escreval ("Estado: ", destino[i,3])
    senao
-   Escreval("Destino não encontrado")
+   Escreval("Destino nï¿½o encontrado")
    fimse
     Escreval ("Deseja Pesquisar outro destino? (S/N)")
    leia(continue)
@@ -133,7 +133,7 @@ fimpara
 caso 5
 limpatela
 escreval ("========================= VOLTE SEMPRE ===========================")
-escreval ("================= OBRIGADO POR UTILIZAR AVIAGEM ==================")
+escreval ("================= OBRIGADO POR UTILIZAR Nhefastour ==================")
    fimalgoritmo
    outrocaso
    limpatela
